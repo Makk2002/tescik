@@ -1,0 +1,83 @@
+<title>Dashboard - LenoxBot</title>
+<script>
+    var currentNavDashId = '#moderation';
+</script>
+
+<main>
+    {{> notification}}
+    <div class="container-fluid">
+        <div class="row">
+            {{> nav-dashboard}}
+            <div class="col-lg-10 lb-dashboard lb-mcsp">
+                <div class="lb-bg-white rounded p-3">
+                    <div class="card shadow-sm">
+                        <div class="card-header">
+                            <p class="h5">Anonymous mute (The user doesn't know who banned/muted him)</p>
+                        </div>
+                        <div class="card-body">
+                            <form class="form-vertical" name="submitmuteanonymous">
+                                <div class="form-group">
+                                    <label class="control-label col-sm" for="newmuteanonymous">Anonymous mute</label>
+                                    <div class="col-sm-4">
+                                        <select required class="form-control custom-select custom-select-lg mb-3 selectpicker"
+                                            name="newmuteanonymous" data-actions-box="true" data-size="7">
+                                            {{#if muteanonymous}}
+                                            <option value="true" selected>Activate</option>
+                                            <option value="false">Deactivate</option>
+                                            {{else}}
+                                            <option value="true">Activate</option>
+                                            <option value="false" selected>Deactivate</option>
+                                            {{/if}}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-10">
+                                        <button type="submit" class="btn lb-btn-green" id="submitmuteanonymous">Save</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card mt-3 shadow-sm">
+                        <div class="card-header">
+                            <p class="h5">Anonymous temporary ban (The user doesn't know who
+                                temporarily banned him)</p>
+                        </div>
+                        <div class="card-body">
+                            <form class="form-vertical" name="submittempbananonymous">
+                                <div class="form-group">
+                                    <label class="control-label col-sm" for="newtempbananonymous">Anonymous temporary
+                                        ban</label>
+                                    <div class="col-sm-4">
+                                        <select required class="form-control custom-select custom-select-lg mb-3 selectpicker"
+                                            name="newtempbananonymous" data-actions-box="true" data-size="7">
+                                            {{#if tempbananonymous}}
+                                            <option value="true" selected>Activate</option>
+                                            <option value="false">Deactivate</option>
+                                            {{else}}
+                                            <option value="true">Activate</option>
+                                            <option value="false" selected>Deactivate</option>
+                                            {{/if}}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-10">
+                                        <button type="submit" class="btn lb-btn-green" id="submittempbananonymous">Save</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm mt-3">
+                        {{> commandsection}}
+                        {{> customforms/moderation}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</main>
