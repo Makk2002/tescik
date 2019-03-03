@@ -4,10 +4,10 @@
     "prefix": "!",
     "sqlitefilename": "",
     "googleKey": "AIzaSyDiF3gaa6j0jmSB0AUxnt-ERWcEZnuCWzw",
-    "googlekey": "",
+    "googlekey": "AIzaSyDiF3gaa6j0jmSB0AUxnt-ERWcEZnuCWzw",
     "clientID_Auth": "545689315930538007",
     "clientSecret_Auth": "gEUuG_7FStYBeYyyJsyQiNg7YHl8EbaR",
-    "callbackURL_Auth": "",
+    "callbackURL_Auth": "google.com",
     "dbl_apikey": "",
     "websiteport": "2555",
     "keychannel": "517460742551633950"
