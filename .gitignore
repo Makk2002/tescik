@@ -1,0 +1,9 @@
+node_modules
+settings.json
+score.sqlite
+package-lock.json
+data
+lenoxbotscore.sqlite
+enmap.sqlite
+crowdin.yml
+test.js
