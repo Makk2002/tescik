@@ -3,12 +3,12 @@
 	"token": "NTQ1Njg5MzE1OTMwNTM4MDA3.D13GhQ.SHMyuCdmjcQPjSC5ZwOWjCbSBAE",
     "prefix": "!",
     "sqlitefilename": "",
-    "googleKey": "Google Custom Search API Key",
-    "googlekey": "Youtube API key",
-    "clientID_Auth": "Client ID Auth",
-    "clientSecret_Auth": "Client Secret Auth",
-    "callbackURL_Auth": "Callback URL Auth",
-    "dbl_apikey": "Your Discord Bot List API Token",
-    "websiteport": "Port of the website",
-    "keychannel": "Channelid where all premium keys should be posted in"
+    "googleKey": "",
+    "googlekey": "",
+    "clientID_Auth": "545689315930538007",
+    "clientSecret_Auth": "gEUuG_7FStYBeYyyJsyQiNg7YHl8EbaR",
+    "callbackURL_Auth": "",
+    "dbl_apikey": "",
+    "websiteport": "",
+    "keychannel": ""
 }
