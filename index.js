@@ -1,3 +1,7 @@
+
+
+//test gitpoda tftf nie wiem vgdsgds dfff  aaaaaaaaaaaaa
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const settings = require('./settings.json');
