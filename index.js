@@ -1,6 +1,6 @@
 
 
-//test gitpoda tftf nie wiem vgdsgds dfff  aaaaaaaaaaaaa
+//test gitpoda tftf nie wiem vgdsgds dfff  aaaaaaaaaaaaa kurwa chuj
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
