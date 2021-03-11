@@ -1,6 +1,6 @@
 
 
-//test gitpoda tftf nie wiem
+//test gitpoda tftf nie wiem vgdsgds
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
